@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "plugin:jest/recommended",
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "comma-dangle": 0
+  },
+  "globals": {
+    "expect": false,
+    "mount": false,
+    "shallow": false,
+    "render": false,
+    "sinon": false
+  }
+}
