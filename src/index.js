@@ -9,7 +9,7 @@ const mutateClasses = (mutation, operation) => obj => {
   }
 }
 
-export class Choreograph extends React.PureComponent {
+export default class Choreograph extends React.PureComponent {
   constructor (props) {
     super(props)
     this.Refs = {}
