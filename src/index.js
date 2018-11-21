@@ -9,7 +9,7 @@ const mutateClasses = (mutation, operation) => obj => {
   }
 }
 
-export class Choreographer extends React.PureComponent {
+export class Choreograph extends React.PureComponent {
   constructor (props) {
     super(props)
     this.Refs = {}
@@ -47,7 +47,7 @@ export class Choreographer extends React.PureComponent {
   }
 }
 
-Choreographer.propTypes = {
+Choreograph.propTypes = {
   children: PropTypes.func.isRequired,
   trigger: PropTypes.bool.isRequired,
   on: PropTypes.arrayOf(PropTypes.object).isRequired,
